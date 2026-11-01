@@ -1,0 +1,8 @@
+[package]
+name = "sendfile"
+version = "0.1.0"
+edition = "2024"
+description = "The sendfile Command Transfers File Data to Standard Output Through the Linux Kernel, with Optional Byte Offsets and Transfer Limits"
+
+[dependencies]
+clap = { version = "=4.6.6", features = ["derive"] }
